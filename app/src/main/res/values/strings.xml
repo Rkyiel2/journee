@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Journée</string>
+    <string name="widget_name">Ma journée</string>
+    <string name="widget_description">Cours, devoirs, notes et cantine</string>
+
+    <!-- Main screen -->
+    <string name="not_connected">Pas encore connecté</string>
+    <string name="connect">Se connecter avec MonLycée</string>
+    <string name="reconnect">Se reconnecter</string>
+    <string name="refresh">Actualiser</string>
+    <string name="add_widget">Ajouter le widget</string>
+    <string name="url_label">Adresse Pronote (facultatif)</string>
+    <string name="url_hint">https://0930000x.index-education.net/pronote/</string>
+    <string name="url_help">Laisse vide : connecte-toi sur MonLycée puis ouvre Pronote, l\'app trouve l\'adresse toute seule.</string>
+    <string name="qr_import">Importer un QR code Pronote</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="logout_confirm">Supprimer la connexion Pronote de ce téléphone ?</string>
+    <string name="updated_at">Mis à jour à %1$s</string>
+    <string name="updating">Actualisation…</string>
+    <string name="never_updated">Jamais actualisé</string>
+    <string name="widget_pin_unsupported">Ajoute le widget depuis l\'écran d\'accueil : appui long → Widgets → Journée.</string>
+    <string name="preview">Aperçu</string>
+
+    <!-- Login -->
+    <string name="close">Fermer</string>
+    <string name="login_step_portal">Connecte-toi à MonLycée, puis ouvre Pronote.</string>
+    <string name="login_step_token">Pronote trouvé, connexion de l\'app…</string>
+    <string name="login_step_data">Connexion à Pronote et chargement…</string>
+    <string name="login_slow_hint">Ça bloque ? Termine la connexion si une page le demande, ou utilise « Pronote web » puis le QR code.</string>
+    <string name="login_qr_screen_hint">Dans Pronote : Mes données → Mes informations → Code QR. Choisis un code à 4 chiffres, puis appuie sur « QR à l\'écran ».</string>
+    <string name="login_qr_image_hint">Choisis une capture d\'écran du QR code Pronote.</string>
+    <string name="login_need_pronote_first">Ouvre d\'abord Pronote depuis MonLycée.</string>
+    <string name="login_ok">Connecté !</string>
+    <string name="login_failed">Connexion impossible</string>
+    <string name="login_failed_hint">Tu peux réessayer, ou passer par le QR code de Pronote web.</string>
+    <string name="retry">Réessayer</string>
+    <string name="use_qr">Utiliser le QR code</string>
+    <string name="validate">Valider</string>
+    <string name="qr_screen">QR à l\'écran</string>
+    <string name="qr_image">Image QR</string>
+    <string name="pronote_web">Pronote web</string>
+    <string name="qr_pick">Choisir le QR code</string>
+    <string name="qr_not_found">Aucun QR code trouvé. Zoome dessus pour qu\'il soit bien visible.</string>
+    <string name="qr_not_pronote">Ce QR code ne vient pas de Pronote.</string>
+    <string name="qr_pin_title">Code du QR</string>
+    <string name="qr_pin_message">Le code à 4 chiffres que tu as choisi en créant le QR code.</string>
+    <string name="security_title">Vérification Pronote</string>
+    <string name="security_message">Pronote veut confirmer ce nouvel appareil.</string>
+    <string name="security_pin">Ton code PIN Pronote</string>
+    <string name="security_new_pin">Choisis un code PIN (4 chiffres)</string>
+    <string name="security_device">Nom de l\'appareil</string>
+    <string name="security_password">Pronote demande de changer ton mot de passe. Fais-le sur Pronote web, puis reconnecte-toi.</string>
+
+    <!-- Widget -->
+    <string name="widget_tap_to_connect">Touche ici pour te connecter à Pronote</string>
+    <string name="widget_needs_login">Reconnexion nécessaire</string>
+</resources>

@@ -1,0 +1,17 @@
+{
+  "name": "journee-engine",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pronote engine (pawnote) bundled for the Android WebView",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "esbuild src/engine.js --bundle --format=iife --platform=browser --target=es2020 --minify --legal-comments=none --external:crypto --external:buffer --external:process --outfile=../app/src/main/assets/engine.js"
+  },
+  "dependencies": {
+    "pawnote": "1.6.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.5"
+  }
+}

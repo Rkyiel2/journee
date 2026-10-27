@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FAFAF9</color>
+    <color name="surface">#F0F0EE</color>
+    <color name="text_primary">#161616</color>
+    <color name="text_secondary">#6F6F6F</color>
+    <color name="text_tertiary">#A6A6A6</color>
+    <color name="accent">#D93A3A</color>
+    <color name="now">#1F6FEB</color>
+    <color name="launcher_bg">#161616</color>
+    <color name="launcher_fg">#FAFAF9</color>
+</resources>
